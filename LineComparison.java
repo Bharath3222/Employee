@@ -37,6 +37,12 @@ public class LineComparison
 			System.out.println("Both lines are equal");
 		else 
 			System.out.println("Both lines are not equal");
+		//uc3
+		if (LengthOfLine < LengthOfLine_2) {
+			System.out.println("Line 2 is greater and it's length is"+LengthOfLine_2);
+		} else {
+			System.out.println("Line 1 is greater and it's length is"+LengthOfLine);
+		}
 			
 	}
 
